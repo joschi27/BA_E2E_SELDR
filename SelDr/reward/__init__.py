@@ -1,0 +1,3 @@
+from .reward_function_trackdrive import TrackDriveRaceRewardFunction
+from .reward_function_acceleration import AccelerationRaceRewardFunction
+from .reward_function_skidpad import SkidPadRaceRewardFunction

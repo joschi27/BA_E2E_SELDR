@@ -1,0 +1,21 @@
+
+pip install numpy
+pip install pillow
+pip install scipy
+pip install matplotlib
+pip install pygame
+pip install tensorboard
+pip install ultralytics
+
+
+# Install CUDA version 12.1 if you wanna use cuda for NN stuff, then:
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+
+
+
+# On Windows, you might have to change .\Util\BuildTools\BuildOSM2ODR.bat line 112 from
+#    cmake -G %GENERATOR% %PLATFORM%^
+#to
+#    cmake -G %GENERATOR% -A x64^
+#then the error: CMake Error: The source directory "C:/build-carla/carla-0.9.15/Build/osm2odr-visualstudio/x64" does not exist. disappeared, and make PythonAPI successed.
